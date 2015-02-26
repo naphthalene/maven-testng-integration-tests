@@ -7,7 +7,7 @@ import static org.fest.assertions.Assertions.assertThat;
 public class StatusTest {
 
     @Test
-    public void shouldFail() {
-        assertThat("aaa").isEqualTo("");
+    public void shouldNotFail() {
+        assertThat("aaa").isEqualTo("aaa");
     }
 }

@@ -4,7 +4,7 @@ import org.testng.annotations.Test;
 
 import static org.fest.assertions.Assertions.assertThat;
 
-public class StatusTestIT {
+public class StatusTest {
 
     @Test
     public void shouldFail() {
